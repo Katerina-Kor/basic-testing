@@ -4,35 +4,35 @@ describe('simpleCalculator tests', () => {
   test('should add two numbers', () => {
     const a = 5;
     const b = 4;
-    const res = a + b;
+    const res = 9;
     expect(simpleCalculator({a, b, action: Action.Add})).toStrictEqual(res);
   });
 
   test('should subtract two numbers', () => {
     const a = 5;
     const b = 4;
-    const res = a - b;
+    const res = 1;
     expect(simpleCalculator({a, b, action: Action.Subtract})).toStrictEqual(res);
   });
 
   test('should multiply two numbers', () => {
     const a = 5;
     const b = 4;
-    const res = a * b;
+    const res = 20;
     expect(simpleCalculator({a, b, action: Action.Multiply})).toStrictEqual(res);
   });
 
   test('should divide two numbers', () => {
     const a = 10;
     const b = 5;
-    const res = a / b;
+    const res = 2;
     expect(simpleCalculator({a, b, action: Action.Divide})).toStrictEqual(res);
   });
 
   test('should exponentiate two numbers', () => {
     const a = 2;
     const b = 3;
-    const res = a ** b;
+    const res = 8;
     expect(simpleCalculator({a, b, action: Action.Exponentiate})).toStrictEqual(res);
   });
 
