@@ -1,8 +1,6 @@
-// Uncomment the code below and write your tests
 import { readFileAsynchronously, doStuffByTimeout, doStuffByInterval } from '.';
 import path from 'path';
 import fs from 'fs';
-// import { doStuffByTimeout, doStuffByInterval } from '.';
 
 describe('doStuffByTimeout', () => {
   beforeAll(() => {
